@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+     <style type="text/tailwindcss">
+        @theme {
+            --font-Poppins: "Poppins", sans-serif;
+            --color-nav: #020202;
+            --color-fondbutton: #3E3232;
+            --color-paragraph:#000000;
+            --color-button:#DFCECE;
+            --color-section:#443434;
+           }
+    </style>
+    <title>CHOCOCAM</title>
+</head>
+<body>
+    <header>
+        <nav class="bg-slate-200 flex justify-between">
+            <!-- logo -->
+
+            <div class="">
+                    <a href="index.html"><img class="w-[173px] h-[82px]" src="./assets/images/logo choco.png"></a>
+            </div>
+            <!-- liens --> 
+
+            <div class="hidden md:flex">
+                    <a href="#">Acceuil</a>
+                    <a href="#">A propos</a>
+                    <a href="#">Carrière</a>
+                    <a href="#">Nous contacter</a>
+            </div>
+            <!--bouton -->
+
+            <div class="hidden md:flex">
+                <button>Contact</button>
+            </div>
+           <!-- menu burger-->
+            <div  class="w-[85px] h-[85px] md:hidden">
+                <svg  class="w-full h-full"  xmlns="http://www.w3.org/2000/svg" width="24" height="24"  
+                    fill="#020202" viewBox="0 0 24 24" >
+                    <!--Boxicons v3.0.8 https://boxicons.com | License  https://docs.boxicons.com/free-->
+                    <path d="M19 15c-1.65 0-3 1.35-3 3s1.35 3 3 3 3-1.35 3-3-1.35-3-3-3m0 4c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1M5 15c-1.65 0-3 1.35-3 3s1.35 3 3 3 3-1.35 3-3-1.35-3-3-3m0 4c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1m7-4c-1.65 0-3 1.35-3 3s1.35 3 3 3 3-1.35 3-3-1.35-3-3-3m0 4c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1m0-11c1.65 0 3-1.35 3-3s-1.35-3-3-3-3 1.35-3 3 1.35 3 3 3m0-4c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1m6.5 7.5c0-1.65-1.35-3-3-3s-3 1.35-3 3 1.35 3 3 3 3-1.35 3-3m-3 1c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1m-4-1c0-1.65-1.35-3-3-3s-3 1.35-3 3 1.35 3 3 3 3-1.35 3-3m-3 1c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1"></path>
+                </svg>    
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="w-full h-auto flex flex-col md:flex-row gap-[30px] py-[20px]">
+            <div class="w-full h-auto flex flex-col px-4 gap-[30px]">
+                <h1 class="text-[48px] font-Poppins font-medium text-nav"> Passion du goût 😋!</h1>
+                <p class="text-[24px] font-Poppins font-extralight text-paragraph"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the </p>
+                <button class="text-[30px] font-Poppins font-medium text-button w-[400px] h-[85px] bg-fondbutton">commander un produit</button>
+            </div>
+            
+            <div class=" w-full h-[792px] bg-[url(./assets/images/chocolat.png)] bg-cover bg-center"></div>
+        </section>
+    </main>
+</body>
+</html>
