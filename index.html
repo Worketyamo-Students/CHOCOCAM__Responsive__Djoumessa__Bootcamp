@@ -16,6 +16,7 @@
             --color-button:#DFCECE;
             --color-section:#443434;
             --color-text:#FFFFFF;
+            --color-bordure:#FFD93D;
            }
     </style>
     <title>CHOCOCAM</title>
@@ -94,9 +95,38 @@
                 <h2 class="text-text font-Poppins text-[55px] font-black ">3 MILLIONS</h2>
                 <p class=" text-text font-Poppins font-medium text-[24px]"> De consommateur à travers l’afrique </p>   
             </div>
-            
-            
         </section>
+
+         <!-- section numero 4 -->
+
+            <section class="w-full h-auto flex flex-col gap-[50px] p-[35px]">
+            <!-- section de la tartine et du bonbon -->
+                <div class=" w-full h-auto flex  gap-[30px] md:justify-between">
+                    <div class=" shadow md:flex md:justify-center w-[550px] h-[300px] border-2 border-bordure rounded-[55%_45%_50%_50%/45%_50%_55%_50%] p-[20px]"><img class="w-[265px] h-[216px]"  src="./assets/images/bonbon.png"></div>
+                    <div class=" shadow flex md:justify-center w-[550px] h-[300px] border-2 border-bordure rounded-[50%_50%_45%_55%/55%_55%_45%_45%] p-[20px]"><img  class="w-[275px] h-[277px]"  src="./assets/images/tartine.png"></div>
+                </div>
+            <!-- section des bonbon et du mambo -->
+                <div class=" w-full h-auto flex gap-[30px] md:justify-between">
+                    <div class=" shadow md:flex md:justify-center w-[550px] h-[300px] border-2 border-bordure rounded-[55%_45%_50%_50%/45%_50%_55%_50%] p-[20px]"><img  class="w-[257px] h-[256px]" src="./assets/images/mambo.png"></div>
+                    <div class=" shadow md:flex md:justify-center w-[550px] h-[300px] border-2 border-bordure rounded-[55%_45%_50%_50%/45%_50%_55%_50%] p-[20px]"><img  class="w-[226px] h-[241px]" src="./assets/images/biscuit.png"></div>
+                </div>
+            </section>
+            <!-- section numero 5 -->
+
+            <section class="w-full h-auto bg-button flex">
+                <div class="w-full h-[470px] flex justify-center items-center">
+                    <form class="w-[400px] h-[400px] flex flex-col justify-center items-center font-Poppins shadow-[0px_0px_2px_#000000] md:w-[600px]" action="#" method="post">
+                        <input class="w-[350px] md:w-[500px] h-[80px] border-1 border-section font-extralight text-[20px] pl-1 mt-2" type="email" name="email" placeholder="Email"><br>
+                        <div class="mb-5"> 
+                            <input class="w-[175px] h-[80px] md:w-[250px] border-1 border-section font-extralight text-[20px] pl-1" type="text" name="nom" placeholder="First Name">
+                            <input class="w-[175px] h-[80px] md:w-[250px] border-1 border-section font-extralight text-[20px] pl-1 " type="text" name="prenom" placeholder="Last Name"><br>
+                         </div>
+                        <textarea class="w-[350px] h-[100px] md:w-[500px] border-1 border-section font-extralight text-[20px] pl-1" name="message" placeholder="message"></textarea><br>
+                        <input  class="md:w-[300px] mb-5 font-semibold text-[30px] text-text w-[250px] h-[80px] border-1 border-section pl-[40px] bg-fondbutton bg-[url(./assets/images/Vector.png)] bg-no-repeat bg-[20px_center] flex justify-center" type="submit" value="Envoyer">
+                    </form>
+                </div>
+            </section>
+            
     </main>
 </body>
 </html>
